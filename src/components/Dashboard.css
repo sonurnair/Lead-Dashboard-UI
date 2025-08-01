@@ -379,20 +379,24 @@ td a:hover {
   font-weight: 500;
   display: inline-block;
   text-transform: capitalize;
-  color: #fff;
+  background-color: transparent; 
   white-space: nowrap;
+  border: 1px solid;
 }
 
 .tag.important {
-  background-color: #ef4444;
+  color: #ef4444;
+  border-color: #ef4444;
 }
 
 .tag.follow-up {
-  background-color: #3b82f6;
+  color: #3b82f6;
+  border-color: #3b82f6;
 }
 
 .tag.review {
-  background-color: #f59e0b;
+  color: #f59e0b;
+  border-color: #f59e0b;
 }
 
 .avatar {
@@ -422,26 +426,28 @@ td a:hover {
   text-transform: capitalize;
   display: inline-block;
   white-space: nowrap;
+  background: transparent;
+  border: 1px solid;
 }
 
 .status-badge.customer {
-  background-color: #16a34a;
+  color: #16a34a;
 }
 
 .status-badge.qualified {
-  background-color: #3b82f6;
+  color: #3b82f6;
 }
 
 .status-badge.working {
-  background-color: #f59e0b;
+  color: #f59e0b;
 }
 
 .status-badge.proposal-sent {
-  background-color: #8b5cf6;
+  color: #8b5cf6;
 }
 
 .status-badge.contacted {
-  background-color: #6366f1;
+  color: #dd1ca9;
 }
 
 .status-badge.lost-leads {
